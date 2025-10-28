@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English School - Школа английского языка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>English School</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#courses">Курсы</a></li>
+                <li><a href="#teachers">Преподаватели</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Изучай английский с удовольствием!</h2>
+            <p>Современная школа английского языка для детей и взрослых</p>
+            <a href="#contact" class="cta-button">Записаться на пробный урок</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О нашей школе</h2>
+            <div class="about-content">
+                <div class="about-item">
+                    <h3>🎓 Опытные преподаватели</h3>
+                    <p>Наши учителя имеют международные сертификаты и многолетний опыт преподавания</p>
+                </div>
+                <div class="about-item">
+                    <h3>📚 Современные методики</h3>
+                    <p>Используем коммуникативный подход и интерактивные материалы</p>
+                </div>
+                <div class="about-item">
+                    <h3>🌍 Международные стандарты</h3>
+                    <p>Обучение по программам Cambridge и Oxford</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Наши курсы</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <h3>Английский для детей</h3>
+                    <p>Возраст: 6-12 лет</p>
+                    <ul>
+                        <li>Игровая форма обучения</li>
+                        <li>Развитие всех навыков</li>
+                        <li>Малые группы до 8 человек</li>
+                    </ul>
+                    <p class="price">от 3500 руб/мес</p>
+                </div>
+                <div class="course-card">
+                    <h3>Английский для подростков</h3>
+                    <p>Возраст: 13-17 лет</p>
+                    <ul>
+                        <li>Подготовка к ОГЭ и ЕГЭ</li>
+                        <li>Разговорный клуб</li>
+                        <li>Проектная работа</li>
+                    </ul>
+                    <p class="price">от 4000 руб/мес</p>
+                </div>
+                <div class="course-card">
+                    <h3>Английский для взрослых</h3>
+                    <p>Возраст: 18+</p>
+                    <ul>
+                        <li>Общий и бизнес-английский</li>
+                        <li>Подготовка к IELTS, TOEFL</li>
+                        <li>Индивидуальный график</li>
+                    </ul>
+                    <p class="price">от 5000 руб/мес</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="teachers" class="teachers">
+        <div class="container">
+            <h2>Наши преподаватели</h2>
+            <div class="teacher-grid">
+                <div class="teacher-card">
+                    <div class="teacher-photo">👩‍🏫</div>
+                    <h3>Анна Иванова</h3>
+                    <p class="qualification">CELTA, Cambridge</p>
+                    <p>10 лет опыта преподавания, специализация на бизнес-английском</p>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo">👨‍🏫</div>
+                    <h3>Михаил Петров</h3>
+                    <p class="qualification">TESOL, IELTS 8.5</p>
+                    <p>8 лет опыта, подготовка к международным экзаменам</p>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-photo">👩‍🏫</div>
+                    <h3>Елена Сидорова</h3>
+                    <p class="qualification">TKT, Cambridge</p>
+                    <p>12 лет опыта работы с детьми и подростками</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Свяжитесь с нами</h3>
+                    <p>📍 Адрес: г. Москва, ул. Примерная, д. 123</p>
+                    <p>📞 Телефон: +7 (495) 123-45-67</p>
+                    <p>📧 Email: info@englishschool.ru</p>
+                    <p>🕐 Время работы: Пн-Пт 9:00-21:00, Сб-Вс 10:00-18:00</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Запись на пробный урок</h3>
+                    <form>
+                        <input type="text" placeholder="Ваше имя" required>
+                        <input type="tel" placeholder="Телефон" required>
+                        <input type="email" placeholder="Email" required>
+                        <select>
+                            <option>Выберите курс</option>
+                            <option>Английский для детей</option>
+                            <option>Английский для подростков</option>
+                            <option>Английский для взрослых</option>
+                        </select>
+                        <textarea placeholder="Комментарий"></textarea>
+                        <button type="submit" class="submit-button">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 English School. Все права защищены.</p>
+            <div class="social-links">
+                <a href="#">VK</a>
+                <a href="#">Instagram</a>
+                <a href="#">Telegram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
